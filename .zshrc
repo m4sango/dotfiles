@@ -57,7 +57,8 @@ setopt share_history
 ## alias
 # コマンド
 alias ll='ls -alF'
-
+alias zshrc='vim ~/dotfiles/.zshrc'
+alias vimrc='vim ~/dotfiles/.vimrc'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
