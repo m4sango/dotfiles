@@ -43,6 +43,8 @@ export SAVEHIST=100000
 setopt hist_ignore_all_dups
 # ヒストリに保存するときに余分なスペースを削除する
 setopt hist_reduce_blanks
+# historyコマンドは履歴に登録しない
+setopt hist_no_store
 
 ## プロンプト
 PROMPT="%{${fg[green]}%}[%n@%m]%{${reset_color}%} %~
@@ -88,3 +90,4 @@ alias vimrc='vim ~/dotfiles/.vimrc'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+alias history-grep='history 1 | grep $1'
