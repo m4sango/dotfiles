@@ -1,6 +1,11 @@
 # 環境変数
 export LANG=ja_JP.UTF-8
 fpath=($(brew --prefix)/share/zsh/site-functions $fpath)
+export PATH="$PATH:/Users/muramatsusho/work/flutter/bin"
+export ORACLE_HOME=~/sqlplus/instantclient_19_3
+export PATH=$ORACLE_HOME:$PATH
+export DYLD_LIBRARY_PATH=~/sqlplus/instantclient_19_3
+export JAVA_HOME=`/usr/libexec/java_home -v 11`
 
 ## 見た目
 # 色を使用出来るようにする
@@ -92,3 +97,7 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias hgrep='history -E 1 | grep $1'
 alias atom='atom -a $1'
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/muramatsusho/.sdkman"
+[[ -s "/Users/muramatsusho/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/muramatsusho/.sdkman/bin/sdkman-init.sh"

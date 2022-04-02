@@ -1,0 +1,22 @@
+{
+    "explorer.confirmDelete": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.minimap.enabled": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "backgroundCover.randomImageFolder": "/Users/muramatsusho/Pictures/vscode_background",
+    "backgroundCover.imagePath": "/Users/muramatsusho/Pictures/vscode_background/いくちゃん_背景_3.jpg",
+    "backgroundCover.opacity": 0.4,
+    "backgroundCover.autoStatus": true,
+    "window.zoomLevel": 1
+}
